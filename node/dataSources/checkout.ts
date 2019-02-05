@@ -137,7 +137,7 @@ export class CheckoutDataSource extends RESTDataSource {
     {metric: 'checkout-orders'}
   )
 
-  public shipping = (simulation: SimulationData) => this.post(
+  public simulation = (simulation: SimulationData) => this.post(
     '/pub/orderForms/simulation',
     simulation,
     {metric: 'checkout-shipping'}
