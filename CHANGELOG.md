@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Fields `href` and `slug` from a subcategory.
+
 ## [2.68.2] - 2019-04-26
 ### Fixed
 - `map` field not required in `Facet` type.
