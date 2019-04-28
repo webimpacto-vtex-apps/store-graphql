@@ -42,7 +42,9 @@ export const resolvers = {
         ''
       )
 
-      return href
+      return category.department
+        ? href + '/d'
+        : href
     },
 
     metaTagDescription: prop('MetaTagDescription'),
