@@ -1,7 +1,11 @@
-import { IOContext, MetricsAccumulator, SegmentData, ServiceContext } from '@vtex/api'
+import {
+  IOContext,
+  MetricsAccumulator,
+  SegmentData,
+  ServiceContext,
+} from '@vtex/api'
 
 import { Clients } from './clients'
-import { CallcenterOperatorDataSource } from './dataSources/callcenterOperator'
 import { CatalogDataSource } from './dataSources/catalog'
 import { CheckoutDataSource } from './dataSources/checkout'
 import { IdentityDataSource } from './dataSources/identity'
@@ -39,7 +43,6 @@ declare global {
     logistics: LogisticsDataSource
     profile: ProfileDataSource
     session: SessionDataSource
-    callcenterOperator: CallcenterOperatorDataSource
     oms: OMSDataSource
   }
 

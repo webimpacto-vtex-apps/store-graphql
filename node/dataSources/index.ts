@@ -1,4 +1,3 @@
-import { CallcenterOperatorDataSource } from './callcenterOperator'
 import { CatalogDataSource } from './catalog'
 import { CheckoutDataSource } from './checkout'
 import { IdentityDataSource } from './identity'
@@ -9,7 +8,6 @@ import { ProfileDataSource } from './profile'
 import { SessionDataSource } from './session'
 
 export const dataSources = () => ({
-  callcenterOperator: new CallcenterOperatorDataSource(),
   catalog: new CatalogDataSource(),
   checkout: new CheckoutDataSource(),
   identity: new IdentityDataSource(),
